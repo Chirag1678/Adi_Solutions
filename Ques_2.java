@@ -119,6 +119,7 @@ public class Ques_2 {
         for (int i = 0; i < n; i++) {
             tree.insert(sc.nextInt());
         }
+        sc.close();
         System.out.println("Preorder Traversal:");
         tree.preorderTraversal();
     }
